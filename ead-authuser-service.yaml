@@ -22,8 +22,7 @@ spring:
   output:
     ansi:
       enabled: always
-  rabbitmq:
-    addresses: amqps://imkqcmkz:e1g57STDD8b2LDggdRLdECmAApelHqWp@fox.rmq.cloudamqp.com/imkqcmkz
+  
 
 logging:
   level:
