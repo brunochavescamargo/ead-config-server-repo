@@ -22,7 +22,8 @@ spring:
   output:
     ansi:
       enabled: always
-  
+  rabbitmq:
+    addresses: ${RABBITMQ_ADDRESSES} 
 
 logging:
   level:
@@ -41,7 +42,7 @@ ead:
 
 authuser:
   refreshscope:
-    name: Michelli Brito - TESTE
+    name: Michelli Brito UPDATE!!!!!!!
 
 management:
   endpoints:
