@@ -23,7 +23,7 @@ spring:
     ansi:
       enabled: always
   rabbitmq:
-    addresses: ${RABBITMQ_ADDRESSES} 
+    addresses: amqps://+${RABBITMQ_ADDRESSES} 
 
 
 logging:
